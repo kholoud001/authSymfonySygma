@@ -1,0 +1,16 @@
+# controllers:
+#     resource:
+#         path: ../src/Controller/
+#         namespace: App\Controller
+#     type: attribute
+index:
+    path: /
+    controller: App\Controller\DefaultController::index
+
+login:
+    path: /login
+    controller: App\Controller\DefaultController::login
+
+dashboard:
+    path: /dashboard
+    controller: App\Controller\DefaultController::dashboard

@@ -73,4 +73,13 @@ class DefaultController extends AbstractController
         return $this->render('dashboard.html.twig');
     }
 
+    /**
+     * @Route("/logout", name="app_logout")
+     */
+    public function logout(): void
+    {
+        // Controller can be blank: it will never be executed!
+        throw new \Exception('Don\'t forget to activate logout in security.yaml');
+    }
+
 }

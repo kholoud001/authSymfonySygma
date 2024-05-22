@@ -10,6 +10,9 @@ index:
 login:
     path: /login
     controller: App\Controller\DefaultController::login
+app_logout:
+    path: /logout
+    controller: App\Controller\DefaultController::logout
 
 dashboard:
     path: /dashboard
